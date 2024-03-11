@@ -100,6 +100,6 @@ funcția cu parametrul “Hello”, functia sa returneze 5 */
 let stringLength = (string) => {
   return string.length;
 };
-let stringText = 'Salut Cristian, iti place tema mea? :)';
-let result3 = stringLength(stringText);
-console.log(`String-ul ${stringText} contine ${result3} caractere.`);
+let string = 'Salut Cristian, iti place tema mea? :)';
+let result3 = stringLength(string);
+console.log(`String-ul ${string} contine ${result3} caractere.`);

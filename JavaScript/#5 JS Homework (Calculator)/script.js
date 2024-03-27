@@ -93,6 +93,12 @@ let counter = 0;
 const countReset = () => {
   counter = counter + 1;
   resetTimes.innerText = `Calculatorul a fost resetat de ${counter} ori.`;
+
+  // dupa 2 secunde dispare
+  resetTimes.style.display = 'block';
+  setTimeout(() => {
+    resetTimes.style.display = 'none';
+  }, 2000); // dupa 2 secunde dispare
 };
 
 resetBtn.addEventListener('click', countReset);

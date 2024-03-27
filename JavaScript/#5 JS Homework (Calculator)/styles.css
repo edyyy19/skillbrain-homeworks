@@ -66,6 +66,7 @@ body {
 }
 
 .calculator-reset-text {
+  display: none;
   font-size: 15px;
   font-weight: 600;
   margin-top: 15px;
